@@ -1,0 +1,104 @@
+name: Project Submission
+description: Submit a project for the Bestgate AI Hackathon
+title: "[Submission]: "
+labels:
+  - submitted
+body:
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      placeholder: Enter your project name
+    validations:
+      required: true
+
+  - type: textarea
+    id: team_members
+    attributes:
+      label: Team Members
+      description: List all team members
+      placeholder: |
+        Jane Doe
+        John Smith
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: In 2-5 sentences, describe what the project is and why it matters
+      placeholder: Brief summary of the project
+    validations:
+      required: true
+
+  - type: input
+    id: primary_link
+    attributes:
+      label: Primary Link
+      description: Main repo or artifact reviewers should start with
+      placeholder: https://github.com/bestgateeng/your-project
+    validations:
+      required: true
+
+  - type: input
+    id: live_demo
+    attributes:
+      label: Live Demo
+      description: Hosted URL, if applicable
+      placeholder: https://...
+
+  - type: input
+    id: demo_video
+    attributes:
+      label: Demo Video
+      description: Link to walkthrough/demo video, if applicable
+      placeholder: https://...
+
+  - type: input
+    id: drive_folder
+    attributes:
+      label: Drive Folder
+      description: Link to Google Drive folder for large assets, if applicable
+      placeholder: https://...
+
+  - type: textarea
+    id: quick_start
+    attributes:
+      label: Quick Start / Review Instructions
+      description: Explain how to run, open, or evaluate the project
+      placeholder: Include setup, login, access, or review steps
+    validations:
+      required: true
+
+  - type: textarea
+    id: ai_tools
+    attributes:
+      label: AI Tools Used
+      description: Example: ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc.
+      placeholder: List the AI tools used
+    validations:
+      required: true
+
+  - type: textarea
+    id: ai_usage
+    attributes:
+      label: How AI Was Used
+      description: Explain how AI materially changed the way you built the project
+      placeholder: Describe how AI contributed to the build process
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Known Constraints
+      description: Mention any setup requirements, permissions, limitations, or caveats
+      placeholder: List anything reviewers should know before opening or running the project
+
+  - type: textarea
+    id: optional_notes
+    attributes:
+      label: Optional Notes
+      description: Anything else reviewers should know
+      placeholder:
