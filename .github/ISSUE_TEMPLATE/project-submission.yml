@@ -75,7 +75,7 @@ body:
     id: ai_tools
     attributes:
       label: AI Tools Used
-      description: Example: ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc.
+      description: "Example: ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc."
       placeholder: List the AI tools used
     validations:
       required: true
@@ -101,4 +101,4 @@ body:
     attributes:
       label: Optional Notes
       description: Anything else reviewers should know
-      placeholder:
+      placeholder: Additional context
