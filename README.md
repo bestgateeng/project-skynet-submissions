@@ -91,45 +91,6 @@ Reviewers should be able to:
 
 ## Suggested Submission Format
 
+Create a new Issue and use the "Project Submission" template
 You can use this structure in your issue body:
 
-### Project Name
-[Project name]
-
-### Team Members
-- Name
-- Name
-- Name
-
-### Summary
-[2-5 sentence summary]
-
-### Primary Link
-[Main repo or artifact]
-
-### Live Demo
-[Hosted URL, if applicable]
-
-### Demo Video
-[Link, if applicable]
-
-### Drive Folder
-[Link, if applicable]
-
-### Quick Start / Review Instructions
-[How to run, open, or review]
-
-### AI Tools Used
-[List of tools]
-
-### How AI Was Used
-[Short explanation]
-
-### Known Constraints
-[Any caveats, access needs, or limitations]
-
-## Questions
-
-If anything is unclear, ask the hackathon organizers before the deadline.
-
-Build something great.
