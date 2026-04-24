@@ -88,9 +88,3 @@ Reviewers should be able to:
 - access the main artifact without guesswork
 - see how AI was used
 - run, inspect, or evaluate the submission with reasonable effort
-
-## Suggested Submission Format
-
-Create a new Issue and use the "Project Submission" template
-You can use this structure in your issue body:
-
